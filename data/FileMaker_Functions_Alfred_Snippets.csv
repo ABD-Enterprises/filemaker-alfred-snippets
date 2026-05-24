@@ -1,0 +1,379 @@
+Name,Keyword,Snippet,Category
+FM Char,;fmchar,Char (  ),Text
+FM Code,;fmcode,Code (  ),Text
+FM Exact,;fmexact,Exact (  ),Text
+FM Filter,;fmfilter,Filter ( textToFilter ; filterText ),Text
+FM FilterValues,;fmfiltervals,FilterValues ( textToFilter ; filterValues ),Text
+FM GetAsCSS,;fmgetascss,GetAsCSS (  ),Text
+FM GetAsDate,;fmasdate,GetAsDate ( expression ),Text
+FM GetAsNumber,;fmasnum,GetAsNumber ( expression ),Text
+FM GetAsSVG,;fmgetassvg,GetAsSVG (  ),Text
+FM GetAsText,;fmastext,GetAsText ( expression ),Text
+FM GetAsTime,;fmgetastime,GetAsTime (  ),Text
+FM GetAsTimestamp,;fmasts,GetAsTimestamp ( expression ),Text
+FM GetAsURLEncoded,;fmgetasurlencoded,GetAsURLEncoded (  ),Text
+FM GetValue,;fmgetvalue,GetValue ( listOfValues ; valueNumber ),Text
+FM Left,;fmleft,Left ( text ; numberOfCharacters ),Text
+FM LeftValues,;fmleftvalues,LeftValues (  ),Text
+FM LeftWords,;fmleftwords,LeftWords ( text ; numberOfWords ),Text
+FM Length,;fmlength,Length (  ),Text
+FM Lower,;fmlower,Lower ( text ),Text
+FM Middle,;fmmid,Middle ( text ; start ; numberOfCharacters ),Text
+FM MiddleValues,;fmmiddlevalues,MiddleValues (  ),Text
+FM MiddleWords,;fmmiddlewords,MiddleWords (  ),Text
+FM PatternCount,;fmpattern,PatternCount ( text ; searchString ),Text
+FM Position,;fmpos,Position ( text ; searchString ; start ; occurrence ),Text
+FM Proper,;fmproper,Proper ( text ),Text
+FM Quote,;fmquote,Quote ( text ),Text
+FM Replace,;fmreplace,Replace (  ),Text
+FM Right,;fmright,Right ( text ; numberOfCharacters ),Text
+FM RightValues,;fmrightvalues,RightValues (  ),Text
+FM RightWords,;fmrightwords,RightWords (  ),Text
+FM SerialIncrement,;fmserialincrement,SerialIncrement (  ),Text
+FM SortValues,;fmsortvals,SortValues ( listOfValues ; dataType ; locale ),Text
+FM Substitute,;fmsub,Substitute ( text ; [ searchString ; replacementString ] ),Text
+FM Trim,;fmtrim,Trim ( text ),Text
+FM TrimAll,;fmtrimall,TrimAll (  ),Text
+FM UniqueValues,;fmunique,UniqueValues ( listOfValues ),Text
+FM Upper,;fmupper,Upper ( text ),Text
+FM ValueCount,;fmvaluecount,ValueCount ( listOfValues ),Text
+FM WordCount,;fmwordcount,WordCount (  ),Text
+FM RGB,;fmrgb,RGB (  ),Text Formatting
+FM TextColor,;fmtextcolor,TextColor (  ),Text Formatting
+FM TextColorRemove,;fmtextcolorremove,TextColorRemove (  ),Text Formatting
+FM TextFont,;fmtextfont,TextFont (  ),Text Formatting
+FM TextFontRemove,;fmtextfontremove,TextFontRemove (  ),Text Formatting
+FM TextFormatRemove,;fmtextformatremove,TextFormatRemove (  ),Text Formatting
+FM TextSize,;fmtextsize,TextSize (  ),Text Formatting
+FM TextSizeRemove,;fmtextsizeremove,TextSizeRemove (  ),Text Formatting
+FM TextStyleAdd,;fmtextstyleadd,TextStyleAdd (  ),Text Formatting
+FM TextStyleRemove,;fmtextstyleremove,TextStyleRemove (  ),Text Formatting
+FM Abs,;fmabs,Abs ( number ),Number
+FM Ceiling,;fmceil,Ceiling ( number ),Number
+FM Combination,;fmcombination,Combination (  ),Number
+FM Div,;fmdiv,Div (  ),Number
+FM Exp,;fmexp,Exp (  ),Number
+FM Factorial,;fmfactorial,Factorial (  ),Number
+FM Floor,;fmfloor,Floor ( number ),Number
+FM Int,;fmint,Int (  ),Number
+FM Lg,;fmlg,Lg (  ),Number
+FM Ln,;fmln,Ln (  ),Number
+FM Log,;fmlog,Log (  ),Number
+FM Mod,;fmmod,Mod ( number ; divisor ),Number
+FM Random,;fmrandom,Random,Number
+FM Round,;fmround,Round ( number ; precision ),Number
+FM SetPrecision,;fmsetprecision,SetPrecision (  ),Number
+FM Sign,;fmsign,Sign (  ),Number
+FM Sqrt,;fmsqrt,Sqrt (  ),Number
+FM Truncate,;fmtruncate,Truncate (  ),Number
+FM Date,;fmdatefn,Date ( month ; day ; year ),Date
+FM Day,;fmday,Day (  ),Date
+FM DayName,;fmdayname,DayName (  ),Date
+FM DayOfWeek,;fmdayofweek,DayOfWeek (  ),Date
+FM DayOfYear,;fmdayofyear,DayOfYear (  ),Date
+FM Month,;fmmonth,Month (  ),Date
+FM MonthName,;fmmonthname,MonthName (  ),Date
+FM WeekOfYear,;fmweekofyear,WeekOfYear (  ),Date
+FM WeekOfYearFiscal,;fmweekofyearfiscal,WeekOfYearFiscal (  ),Date
+FM Year,;fmyear,Year (  ),Date
+FM Hour,;fmhour,Hour (  ),Time
+FM Minute,;fmminute,Minute (  ),Time
+FM Seconds,;fmseconds,Seconds (  ),Time
+FM Time,;fmtimefn,Time ( hours ; minutes ; seconds ),Time
+FM Timestamp,;fmtimestamp,Timestamp ( date ; time ),Timestamp
+FM Base64Decode,;fmbase64decode,Base64Decode (  ),Container
+FM Base64Encode,;fmbase64encode,Base64Encode (  ),Container
+FM Base64EncodeRFC,;fmbase64encoderfc,Base64EncodeRFC (  ),Container
+FM CryptAuthCode,;fmcryptauthcode,CryptAuthCode (  ),Container
+FM CryptDecrypt,;fmcryptdecrypt,CryptDecrypt (  ),Container
+FM CryptDecryptBase64,;fmcryptdecryptbase64,CryptDecryptBase64 (  ),Container
+FM CryptDigest,;fmcryptdigest,CryptDigest (  ),Container
+FM CryptEncrypt,;fmcryptencrypt,CryptEncrypt (  ),Container
+FM CryptEncryptBase64,;fmcryptencryptbase64,CryptEncryptBase64 (  ),Container
+FM CryptGenerateSignature,;fmcryptgeneratesignature,CryptGenerateSignature (  ),Container
+FM CryptVerifySignature,;fmcryptverifysignature,CryptVerifySignature (  ),Container
+FM GetContainerAttribute,;fmgetcontainerattribute,GetContainerAttribute (  ),Container
+FM GetHeight,;fmgetheight,GetHeight (  ),Container
+FM GetLiveText,;fmgetlivetext,GetLiveText (  ),Container
+FM GetLiveTextAsJSON,;fmgetlivetextasjson,GetLiveTextAsJSON (  ),Container
+FM GetTextFromPDF,;fmgettextfrompdf,GetTextFromPDF (  ),Container
+FM GetThumbnail,;fmgetthumbnail,GetThumbnail (  ),Container
+FM GetWidth,;fmgetwidth,GetWidth (  ),Container
+FM HexDecode,;fmhexdecode,HexDecode (  ),Container
+FM HexEncode,;fmhexencode,HexEncode (  ),Container
+FM ReadQRCode,;fmreadqrcode,ReadQRCode (  ),Container
+FM TextDecode,;fmtextdec,TextDecode ( container ; encoding ),Container
+FM TextEncode,;fmtextenc,TextEncode ( text ; encoding ; lineEndings ),Container
+FM VerifyContainer,;fmverifycontainer,VerifyContainer (  ),Container
+FM DayNameJ,;fmdaynamej,DayNameJ (  ),Japanese
+FM Furigana,;fmfurigana,Furigana (  ),Japanese
+FM Hiragana,;fmhiragana,Hiragana (  ),Japanese
+FM KanaHankaku,;fmkanahankaku,KanaHankaku (  ),Japanese
+FM KanaZenkaku,;fmkanazenkaku,KanaZenkaku (  ),Japanese
+FM KanjiNumeral,;fmkanjinumeral,KanjiNumeral (  ),Japanese
+FM Katakana,;fmkatakana,Katakana (  ),Japanese
+FM MonthNameJ,;fmmonthnamej,MonthNameJ (  ),Japanese
+FM NumToJText,;fmnumtojtext,NumToJText (  ),Japanese
+FM RomanHankaku,;fmromanhankaku,RomanHankaku (  ),Japanese
+FM RomanZenkaku,;fmromanzenkaku,RomanZenkaku (  ),Japanese
+FM YearName,;fmyearname,YearName (  ),Japanese
+FM JSONDeleteElement,;fmjsondeleteelement,JSONDeleteElement (  ),JSON
+FM JSONFormatElements,;fmjsonformatelements,JSONFormatElements (  ),JSON
+FM JSONGetElement,;fmjsongetelement,JSONGetElement (  ),JSON
+FM JSONGetElementType,;fmjsongetelementtype,JSONGetElementType (  ),JSON
+FM JSONListKeys,;fmjsonlistkeys,JSONListKeys (  ),JSON
+FM JSONListValues,;fmjsonlistvalues,JSONListValues (  ),JSON
+FM JSONMakeArray,;fmjsonmakearray,JSONMakeArray (  ),JSON
+FM JSONParse,;fmjsonparse,JSONParse (  ),JSON
+FM JSONParsedState,;fmjsonparsedstate,JSONParsedState (  ),JSON
+FM JSONSetElement,;fmjsonsetelement,JSONSetElement (  ),JSON
+FM Average,;fmavg,Average ( field {; field...} ),Aggregate
+FM Count,;fmcount,Count ( field {; field...} ),Aggregate
+FM List,;fmlist,List ( value1 ; value2 ; value3 ),Aggregate
+FM Max,;fmmax,Max ( number1 ; number2 ; number3 ),Aggregate
+FM Min,;fmmin,Min ( number1 ; number2 ; number3 ),Aggregate
+FM StDev,;fmstdev,StDev (  ),Aggregate
+FM StDevP,;fmstdevp,StDevP (  ),Aggregate
+FM Sum,;fmsum,Sum ( field {; field...} ),Aggregate
+FM Variance,;fmvariance,Variance (  ),Aggregate
+FM VarianceP,;fmvariancep,VarianceP (  ),Aggregate
+FM Extend,;fmextend,Extend (  ),Repeating
+FM GetRepetition,;fmgetrepetition,GetRepetition (  ),Repeating
+FM Last,;fmlast,Last (  ),Repeating
+FM FV,;fmfv,FV (  ),Financial
+FM NPV,;fmnpv,NPV (  ),Financial
+FM PMT,;fmpmt,PMT (  ),Financial
+FM PV,;fmpv,PV (  ),Financial
+FM Acos,;fmacos,Acos (  ),Trigonometric
+FM Asin,;fmasin,Asin (  ),Trigonometric
+FM Atan,;fmatan,Atan (  ),Trigonometric
+FM Cos,;fmcos,Cos (  ),Trigonometric
+FM Degrees,;fmdegrees,Degrees (  ),Trigonometric
+FM Pi,;fmpi,Pi,Trigonometric
+FM Radians,;fmradians,Radians (  ),Trigonometric
+FM Sin,;fmsin,Sin (  ),Trigonometric
+FM Tan,;fmtan,Tan (  ),Trigonometric
+FM Case,;fmcase,"Case (
+    test1 ; result1 ;
+    test2 ; result2 ;
+    defaultResult
+)",Logical
+FM Choose,;fmchoose,Choose ( test ; result0 ; result1 ; result2 ),Logical
+FM Evaluate,;fmeval,Evaluate ( expression ),Logical
+FM EvaluationError,;fmevaluationerror,EvaluationError (  ),Logical
+FM ExecuteSQL,;fmsql,"ExecuteSQL ( ""SELECT field FROM table WHERE id = ?"" ; """" ; """" ; id )",Logical
+FM ExecuteSQLe,;fmsqle,"ExecuteSQLe ( ""SELECT field FROM table WHERE id = ?"" ; """" ; """" ; id )",Logical
+FM GetAsBoolean,;fmgetasboolean,GetAsBoolean (  ),Logical
+FM GetField,;fmgetfield,GetField ( fieldName ),Logical
+FM GetNthRecord,;fmgetnthrecord,GetNthRecord (  ),Logical
+FM GetSummary,;fmgetsummary,GetSummary (  ),Logical
+FM If,;fmif,If ( test ; resultIfTrue ; resultIfFalse ),Logical
+FM IsEmpty,;fmisempty,IsEmpty ( expression ),Logical
+FM IsValid,;fmisvalid,IsValid ( expression ),Logical
+FM IsValidExpression,;fmisvalidexpression,IsValidExpression (  ),Logical
+FM Let,;fmlet,"Let ( [
+    var = value
+] ;
+    result
+)",Logical
+FM Lookup,;fmlookup,Lookup (  ),Logical
+FM LookupNext,;fmlookupnext,LookupNext (  ),Logical
+FM Self,;fmself,Self,Logical
+FM SetRecursion,;fmsetrecursion,SetRecursion (  ),Logical
+FM While,;fmwhile,"While ( [
+    i = 0 ;
+    result = """"
+] ;
+    i < count ;
+    [
+        i = i + 1 ;
+        result = List ( result ; i )
+    ] ;
+    result
+)",Logical
+FM AddEmbeddings,;fmaddembeddings,AddEmbeddings (  ),AI
+FM ComputeModel,;fmcomputemodel,ComputeModel (  ),AI
+FM CosineSimilarity,;fmcosinesimilarity,CosineSimilarity (  ),AI
+FM GetEmbedding,;fmgetembedding,GetEmbedding (  ),AI
+FM GetEmbeddingAsFile,;fmgetembeddingasfile,GetEmbeddingAsFile (  ),AI
+FM GetEmbeddingAsText,;fmgetembeddingastext,GetEmbeddingAsText (  ),AI
+FM GetFieldsOnLayout,;fmgetfieldsonlayout,GetFieldsOnLayout (  ),AI
+FM GetModelAttributes,;fmgetmodelattributes,GetModelAttributes (  ),AI
+FM GetRAGSpaceInfo,;fmgetragspaceinfo,GetRAGSpaceInfo (  ),AI
+FM GetTableDDL,;fmgettableddl,GetTableDDL (  ),AI
+FM GetTokenCount,;fmgettokencount,GetTokenCount (  ),AI
+FM NormalizeEmbedding,;fmnormalizeembedding,NormalizeEmbedding (  ),AI
+FM PredictFromModel,;fmpredictfrommodel,PredictFromModel (  ),AI
+FM SubtractEmbeddings,;fmsubtractembeddings,SubtractEmbeddings (  ),AI
+FM ConvertFromFileMakerPath,;fmconvertfromfilemakerpath,ConvertFromFileMakerPath (  ),Miscellaneous
+FM ConvertToFileMakerPath,;fmconverttofilemakerpath,ConvertToFileMakerPath (  ),Miscellaneous
+FM GetAddonInfo,;fmgetaddoninfo,GetAddonInfo (  ),Miscellaneous
+FM GetBaseTableName,;fmgetbasetablename,GetBaseTableName (  ),Miscellaneous
+FM GetFieldName,;fmfieldname,GetFieldName ( field ),Miscellaneous
+FM GetLayoutObjectAttribute,;fmgetlayoutobjectattribute,GetLayoutObjectAttribute (  ),Miscellaneous
+FM GetLayoutObjectOwnerInfo,;fmgetlayoutobjectownerinfo,GetLayoutObjectOwnerInfo (  ),Miscellaneous
+FM GetRecordIDsFromFoundSet,;fmgetrecordidsfromfoundset,GetRecordIDsFromFoundSet (  ),Miscellaneous
+FM LayoutObjectUUID,;fmlayoutobjectuuid,LayoutObjectUUID (  ),Miscellaneous
+FM BaseTableIDs,;fmbasetableids,BaseTableIDs (  ),Design
+FM BaseTableNames,;fmbasetablenames,BaseTableNames (  ),Design
+FM DatabaseNames,;fmdatabasenames,DatabaseNames (  ),Design
+FM FieldBounds,;fmfieldbounds,FieldBounds (  ),Design
+FM FieldComment,;fmfieldcomment,FieldComment (  ),Design
+FM FieldIDs,;fmfieldids,FieldIDs (  ),Design
+FM FieldNames,;fmfieldnames,FieldNames ( fileName ; layoutName ),Design
+FM FieldRepetitions,;fmfieldrepetitions,FieldRepetitions (  ),Design
+FM FieldStyle,;fmfieldstyle,FieldStyle (  ),Design
+FM FieldType,;fmfieldtype,FieldType (  ),Design
+FM GetNextSerialValue,;fmgetnextserialvalue,GetNextSerialValue (  ),Design
+FM LayoutIDs,;fmlayoutids,LayoutIDs (  ),Design
+FM LayoutNames,;fmlayoutnames,LayoutNames ( fileName ),Design
+FM LayoutObjectNames,;fmlayoutobjectnames,LayoutObjectNames (  ),Design
+FM RelationInfo,;fmrelationinfo,RelationInfo (  ),Design
+FM ScriptIDs,;fmscriptids,ScriptIDs (  ),Design
+FM ScriptNames,;fmscriptnames,ScriptNames ( fileName ),Design
+FM TableIDs,;fmtableids,TableIDs (  ),Design
+FM TableNames,;fmtablenames,TableNames ( fileName ),Design
+FM ValueListIDs,;fmvaluelistids,ValueListIDs (  ),Design
+FM ValueListItems,;fmvaluelistitems,ValueListItems (  ),Design
+FM ValueListNames,;fmvaluelistnames,ValueListNames (  ),Design
+FM WindowNames,;fmwindownames,WindowNames (  ),Design
+FM GetAVPlayerAttribute,;fmgetavplayerattribute,GetAVPlayerAttribute (  ),Mobile
+FM GetSensor,;fmgetsensor,GetSensor (  ),Mobile
+FM Location,;fmlocation,Location (  ),Mobile
+FM LocationValues,;fmlocationvalues,LocationValues (  ),Mobile
+FM RangeBeacons,;fmrangebeacons,RangeBeacons (  ),Mobile
+FM Get(AccountExtendedPrivileges),;fmgetaccountextendedprivileges,Get ( AccountExtendedPrivileges ),Get
+FM Get(AccountGroupName),;fmgetaccountgroupname,Get ( AccountGroupName ),Get
+FM Get(AccountName),;fmgetaccountname,Get ( AccountName ),Get
+FM Get(AccountPrivilegeSetName),;fmgetaccountprivilegesetname,Get ( AccountPrivilegeSetName ),Get
+FM Get(AccountType),;fmgetaccounttype,Get ( AccountType ),Get
+FM Get(ActiveFieldContents),;fmgetactivefieldcontents,Get ( ActiveFieldContents ),Get
+FM Get(ActiveFieldName),;fmgetactivefieldname,Get ( ActiveFieldName ),Get
+FM Get(ActiveFieldTableName),;fmgetactivefieldtablename,Get ( ActiveFieldTableName ),Get
+FM Get(ActiveLayoutObjectName),;fmgetactivelayoutobjectname,Get ( ActiveLayoutObjectName ),Get
+FM Get(ActiveModifierKeys),;fmgetactivemodifierkeys,Get ( ActiveModifierKeys ),Get
+FM Get(ActivePortalRowNumber),;fmgetactiveportalrownumber,Get ( ActivePortalRowNumber ),Get
+FM Get(ActiveRecordNumber),;fmgetactiverecordnumber,Get ( ActiveRecordNumber ),Get
+FM Get(ActiveRepetitionNumber),;fmgetactiverepetitionnumber,Get ( ActiveRepetitionNumber ),Get
+FM Get(ActiveSelectionSize),;fmgetactiveselectionsize,Get ( ActiveSelectionSize ),Get
+FM Get(ActiveSelectionStart),;fmgetactiveselectionstart,Get ( ActiveSelectionStart ),Get
+FM Get(AllowAbortState),;fmgetallowabortstate,Get ( AllowAbortState ),Get
+FM Get(AllowFormattingBarState),;fmgetallowformattingbarstate,Get ( AllowFormattingBarState ),Get
+FM Get(ApplicationArchitecture),;fmgetapplicationarchitecture,Get ( ApplicationArchitecture ),Get
+FM Get(ApplicationLanguage),;fmgetapplicationlanguage,Get ( ApplicationLanguage ),Get
+FM Get(ApplicationVersion),;fmgetapplicationversion,Get ( ApplicationVersion ),Get
+FM Get(CacheFileName),;fmgetcachefilename,Get ( CacheFileName ),Get
+FM Get(CacheFilePath),;fmgetcachefilepath,Get ( CacheFilePath ),Get
+FM Get(CalculationRepetitionNumber),;fmgetcalculationrepetitionnumber,Get ( CalculationRepetitionNumber ),Get
+FM Get(ConnectionAttributes),;fmgetconnectionattributes,Get ( ConnectionAttributes ),Get
+FM Get(ConnectionState),;fmgetconnectionstate,Get ( ConnectionState ),Get
+FM Get(CurrentDate),;fmgetcurrentdate,Get ( CurrentDate ),Get
+FM Get(CurrentExtendedPrivileges),;fmgetcurrentextendedprivileges,Get ( CurrentExtendedPrivileges ),Get
+FM Get(CurrentHostTimestamp),;fmgetcurrenthosttimestamp,Get ( CurrentHostTimestamp ),Get
+FM Get(CurrentPrivilegeSetName),;fmgetcurrentprivilegesetname,Get ( CurrentPrivilegeSetName ),Get
+FM Get(CurrentTime),;fmgetcurrenttime,Get ( CurrentTime ),Get
+FM Get(CurrentTimestamp),;fmgetcurrenttimestamp,Get ( CurrentTimestamp ),Get
+FM Get(CurrentTimeUTCMicroseconds),;fmgetcurrenttimeutcmicroseconds,Get ( CurrentTimeUTCMicroseconds ),Get
+FM Get(CurrentTimeUTCMilliseconds),;fmgetcurrenttimeutcmilliseconds,Get ( CurrentTimeUTCMilliseconds ),Get
+FM Get(CustomMenuSetName),;fmgetcustommenusetname,Get ( CustomMenuSetName ),Get
+FM Get(DesktopPath),;fmgetdesktoppath,Get ( DesktopPath ),Get
+FM Get(Device),;fmgetdevice,Get ( Device ),Get
+FM Get(DocumentsPath),;fmgetdocumentspath,Get ( DocumentsPath ),Get
+FM Get(DocumentsPathListing),;fmgetdocumentspathlisting,Get ( DocumentsPathListing ),Get
+FM Get(EncryptionState),;fmgetencryptionstate,Get ( EncryptionState ),Get
+FM Get(ErrorCaptureState),;fmgeterrorcapturestate,Get ( ErrorCaptureState ),Get
+FM Get(FileLocaleElements),;fmgetfilelocaleelements,Get ( FileLocaleElements ),Get
+FM Get(FileMakerPath),;fmgetfilemakerpath,Get ( FileMakerPath ),Get
+FM Get(FileName),;fmgetfilename,Get ( FileName ),Get
+FM Get(FilePath),;fmgetfilepath,Get ( FilePath ),Get
+FM Get(FileSize),;fmgetfilesize,Get ( FileSize ),Get
+FM Get(FoundCount),;fmgetfoundcount,Get ( FoundCount ),Get
+FM Get(HighContrastState),;fmgethighcontraststate,Get ( HighContrastState ),Get
+FM Get(HostApplicationVersion),;fmgethostapplicationversion,Get ( HostApplicationVersion ),Get
+FM Get(HostIPAddress),;fmgethostipaddress,Get ( HostIPAddress ),Get
+FM Get(HostName),;fmgethostname,Get ( HostName ),Get
+FM Get(InstalledFMPlugins),;fmgetinstalledfmplugins,Get ( InstalledFMPlugins ),Get
+FM Get(InstalledFMPluginsAsJSON),;fmgetinstalledfmpluginsasjson,Get ( InstalledFMPluginsAsJSON ),Get
+FM Get(LastError),;fmgetlasterror,Get ( LastError ),Get
+FM Get(LastErrorDetail),;fmgetlasterrordetail,Get ( LastErrorDetail ),Get
+FM Get(LastErrorLocation),;fmgetlasterrorlocation,Get ( LastErrorLocation ),Get
+FM Get(LastMessageChoice),;fmgetlastmessagechoice,Get ( LastMessageChoice ),Get
+FM Get(LastStepTokensUsed),;fmgetlaststeptokensused,Get ( LastStepTokensUsed ),Get
+FM Get(LayoutAccess),;fmgetlayoutaccess,Get ( LayoutAccess ),Get
+FM Get(LayoutCount),;fmgetlayoutcount,Get ( LayoutCount ),Get
+FM Get(LayoutName),;fmgetlayoutname,Get ( LayoutName ),Get
+FM Get(LayoutNumber),;fmgetlayoutnumber,Get ( LayoutNumber ),Get
+FM Get(LayoutTableName),;fmgetlayouttablename,Get ( LayoutTableName ),Get
+FM Get(LayoutViewState),;fmgetlayoutviewstate,Get ( LayoutViewState ),Get
+FM Get(MenubarState),;fmgetmenubarstate,Get ( MenubarState ),Get
+FM Get(ModifiedFields),;fmgetmodifiedfields,Get ( ModifiedFields ),Get
+FM Get(MultiUserState),;fmgetmultiuserstate,Get ( MultiUserState ),Get
+FM Get(NetworkProtocol),;fmgetnetworkprotocol,Get ( NetworkProtocol ),Get
+FM Get(NetworkType),;fmgetnetworktype,Get ( NetworkType ),Get
+FM Get(OpenDataFileInfo),;fmgetopendatafileinfo,Get ( OpenDataFileInfo ),Get
+FM Get(PageCount),;fmgetpagecount,Get ( PageCount ),Get
+FM Get(PageNumber),;fmgetpagenumber,Get ( PageNumber ),Get
+FM Get(PersistentID),;fmgetpersistentid,Get ( PersistentID ),Get
+FM Get(PreferencesPath),;fmgetpreferencespath,Get ( PreferencesPath ),Get
+FM Get(PrinterName),;fmgetprintername,Get ( PrinterName ),Get
+FM Get(QuickFindText),;fmgetquickfindtext,Get ( QuickFindText ),Get
+FM Get(RecordAccess),;fmgetrecordaccess,Get ( RecordAccess ),Get
+FM Get(RecordID),;fmgetrecordid,Get ( RecordID ),Get
+FM Get(RecordModificationCount),;fmgetrecordmodificationcount,Get ( RecordModificationCount ),Get
+FM Get(RecordNumber),;fmgetrecordnumber,Get ( RecordNumber ),Get
+FM Get(RecordOpenCount),;fmgetrecordopencount,Get ( RecordOpenCount ),Get
+FM Get(RecordOpenState),;fmgetrecordopenstate,Get ( RecordOpenState ),Get
+FM Get(RegionMonitorEvents),;fmgetregionmonitorevents,Get ( RegionMonitorEvents ),Get
+FM Get(RequestCount),;fmgetrequestcount,Get ( RequestCount ),Get
+FM Get(RequestOmitState),;fmgetrequestomitstate,Get ( RequestOmitState ),Get
+FM Get(RevertTransactionOnErrorState),;fmgetreverttransactiononerrorstate,Get ( RevertTransactionOnErrorState ),Get
+FM Get(ScreenDepth),;fmgetscreendepth,Get ( ScreenDepth ),Get
+FM Get(ScreenHeight),;fmgetscreenheight,Get ( ScreenHeight ),Get
+FM Get(ScreenScaleFactor),;fmgetscreenscalefactor,Get ( ScreenScaleFactor ),Get
+FM Get(ScreenWidth),;fmgetscreenwidth,Get ( ScreenWidth ),Get
+FM Get(ScriptAnimationState),;fmgetscriptanimationstate,Get ( ScriptAnimationState ),Get
+FM Get(ScriptName),;fmgetscriptname,Get ( ScriptName ),Get
+FM Get(ScriptParameter),;fmgetscriptparameter,Get ( ScriptParameter ),Get
+FM Get(ScriptResult),;fmgetscriptresult,Get ( ScriptResult ),Get
+FM Get(SessionIdentifier),;fmgetsessionidentifier,Get ( SessionIdentifier ),Get
+FM Get(SortState),;fmgetsortstate,Get ( SortState ),Get
+FM Get(StatusAreaState),;fmgetstatusareastate,Get ( StatusAreaState ),Get
+FM Get(SystemAppearance),;fmgetsystemappearance,Get ( SystemAppearance ),Get
+FM Get(SystemDrive),;fmgetsystemdrive,Get ( SystemDrive ),Get
+FM Get(SystemIPAddress),;fmgetsystemipaddress,Get ( SystemIPAddress ),Get
+FM Get(SystemLanguage),;fmgetsystemlanguage,Get ( SystemLanguage ),Get
+FM Get(SystemLocaleElements),;fmgetsystemlocaleelements,Get ( SystemLocaleElements ),Get
+FM Get(SystemNICAddress),;fmgetsystemnicaddress,Get ( SystemNICAddress ),Get
+FM Get(SystemPlatform),;fmgetsystemplatform,Get ( SystemPlatform ),Get
+FM Get(SystemStorageAvailable),;fmgetsystemstorageavailable,Get ( SystemStorageAvailable ),Get
+FM Get(SystemVersion),;fmgetsystemversion,Get ( SystemVersion ),Get
+FM Get(TemporaryPath),;fmgettemporarypath,Get ( TemporaryPath ),Get
+FM Get(TextRulerVisible),;fmgettextrulervisible,Get ( TextRulerVisible ),Get
+FM Get(TotalRecordCount),;fmgettotalrecordcount,Get ( TotalRecordCount ),Get
+FM Get(TouchKeyboardState),;fmgettouchkeyboardstate,Get ( TouchKeyboardState ),Get
+FM Get(TransactionOpenState),;fmgettransactionopenstate,Get ( TransactionOpenState ),Get
+FM Get(TriggerCurrentPanel),;fmgettriggercurrentpanel,Get ( TriggerCurrentPanel ),Get
+FM Get(TriggerExternalEvent),;fmgettriggerexternalevent,Get ( TriggerExternalEvent ),Get
+FM Get(TriggerGestureInfo),;fmgettriggergestureinfo,Get ( TriggerGestureInfo ),Get
+FM Get(TriggerKeystroke),;fmgettriggerkeystroke,Get ( TriggerKeystroke ),Get
+FM Get(TriggerModifierKeys),;fmgettriggermodifierkeys,Get ( TriggerModifierKeys ),Get
+FM Get(TriggerTargetPanel),;fmgettriggertargetpanel,Get ( TriggerTargetPanel ),Get
+FM Get(UserCount),;fmgetusercount,Get ( UserCount ),Get
+FM Get(UserName),;fmgetusername,Get ( UserName ),Get
+FM Get(UseSystemFormatsState),;fmgetusesystemformatsstate,Get ( UseSystemFormatsState ),Get
+FM Get(UUID),;fmgetuuid,Get ( UUID ),Get
+FM Get(UUIDNumber),;fmgetuuidnumber,Get ( UUIDNumber ),Get
+FM Get(WindowContentHeight),;fmgetwindowcontentheight,Get ( WindowContentHeight ),Get
+FM Get(WindowContentWidth),;fmgetwindowcontentwidth,Get ( WindowContentWidth ),Get
+FM Get(WindowDesktopHeight),;fmgetwindowdesktopheight,Get ( WindowDesktopHeight ),Get
+FM Get(WindowDesktopWidth),;fmgetwindowdesktopwidth,Get ( WindowDesktopWidth ),Get
+FM Get(WindowHeight),;fmgetwindowheight,Get ( WindowHeight ),Get
+FM Get(WindowLeft),;fmgetwindowleft,Get ( WindowLeft ),Get
+FM Get(WindowMode),;fmgetwindowmode,Get ( WindowMode ),Get
+FM Get(WindowName),;fmgetwindowname,Get ( WindowName ),Get
+FM Get(WindowOrientation),;fmgetwindoworientation,Get ( WindowOrientation ),Get
+FM Get(WindowStyle),;fmgetwindowstyle,Get ( WindowStyle ),Get
+FM Get(WindowTop),;fmgetwindowtop,Get ( WindowTop ),Get
+FM Get(WindowVisible),;fmgetwindowvisible,Get ( WindowVisible ),Get
+FM Get(WindowWidth),;fmgetwindowwidth,Get ( WindowWidth ),Get
+FM Get(WindowZoomLevel),;fmgetwindowzoomlevel,Get ( WindowZoomLevel ),Get
