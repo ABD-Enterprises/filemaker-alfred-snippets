@@ -32,7 +32,7 @@ PR title prefix matches the highest-tier label added:
 
 ### [INTERNAL]
 
-- None.
+- Add `AGENTS.md` (fleet agent-file standard) and a `CLAUDE.md` that imports it.
 
 ### [SECURITY]
 
