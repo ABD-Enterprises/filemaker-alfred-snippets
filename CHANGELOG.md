@@ -32,6 +32,8 @@ PR title prefix matches the highest-tier label added:
 
 ### [INTERNAL]
 
+- Refresh the generated fleet core; preserve repository-specific instructions.
+
 - Add `AGENTS.md` (fleet agent-file standard) and a `CLAUDE.md` that imports it.
 
 ### [SECURITY]
