@@ -14,7 +14,7 @@ We welcome contributions to the FileMaker Alfred Snippets collection! If you hav
 
 ### Keyword Naming Rules
 - All snippet triggers **must** start with `;fm`.
-- Keep the suffix short but descriptive (e.g., `;fmlet`, `;fmjsonset`).
+- Keep the suffix short but descriptive (e.g., `;fmlet`, `;fmsub`).
 - Use all lowercase for the trigger.
 
 ### Avoid Conflicts

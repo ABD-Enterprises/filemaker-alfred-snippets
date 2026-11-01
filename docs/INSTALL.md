@@ -25,4 +25,4 @@ Follow these steps to install the FileMaker Alfred Snippets collection.
    Open any text editor or a FileMaker Calculation dialog, and type one of the triggers, for example:
    `;fmlet`
    
-   If everything is set up correctly, the text should immediately expand into a `Let ( [] ; )` statement.
+   If everything is set up correctly, the text should immediately expand into a multi-line `Let ( [ var = value ] ; result )` statement.

@@ -1,5 +1,7 @@
 # Operator Notes
 
+> Status: written for the retired ORC Planner. Nothing reads this directory now; keep it only as notes for people.
+
 This directory stores operator-curated context for Planner runs.
 
 Use one Markdown file per topic. Good notes explain durable operating context:

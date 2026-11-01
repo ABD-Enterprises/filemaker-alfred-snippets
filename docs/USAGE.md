@@ -12,35 +12,33 @@ The semicolon (`;`) is used as a prefix because it is rarely typed immediately b
 
 ## Examples by Category
 
+The expansions below are copied from `data/FileMaker_Functions_Alfred_Snippets.csv`, the source of the bundle. Some snippets expand to the function name with empty parentheses, such as `JSONSetElement (  )`.
+
 ### Logic
-- `;fmif` → `If ( test ; result1 {; result2} )`
-- `;fmcase` → `Case ( test1 ; result1 {; test2 ; result2 ; ... ; defaultResult} )`
-- `;fmlet` → `Let ( {[} var1 = expression1 {; var2 = expression2...]} ; calculation )`
+- `;fmif` → `If ( test ; resultIfTrue ; resultIfFalse )`
+- `;fmcase` → a multi-line `Case ( test1 ; result1 ; test2 ; result2 ; defaultResult )` block
+- `;fmlet` → a multi-line `Let ( [ var = value ] ; result )` block
 
 ### Text
-- `;fmsub` → `Substitute ( text ; searchString ; replaceString )`
+- `;fmsub` → `Substitute ( text ; [ searchString ; replacementString ] )`
 - `;fmpos` → `Position ( text ; searchString ; start ; occurrence )`
-- `;fmmiddle` → `Middle ( text ; start ; numberOfCharacters )`
+- `;fmmiddlewords` → `MiddleWords (  )`
 
 ### JSON
-- `;fmjsonset` → `JSONSetElement ( json ; keyOrIndexOrPath ; value ; type )`
-- `;fmjsonget` → `JSONGetElement ( json ; keyOrIndexOrPath )`
-- `;fmjsonlist` → `JSONListKeys ( json ; keyOrIndexOrPath )`
+- `;fmjsonsetelement` → `JSONSetElement (  )`
+- `;fmjsongetelement` → `JSONGetElement (  )`
+- `;fmjsonlistkeys` → `JSONListKeys (  )`
 
 ### SQL
-- `;fmsql` → `ExecuteSQL ( sqlQuery ; fieldSeparator ; rowSeparator {; arguments...} )`
-
-### Variables
-- `;fmgv` → `$$GlobalVariable`
-- `;fmlv` → `$LocalVariable`
+- `;fmsql` → `ExecuteSQL ( "SELECT field FROM table WHERE id = ?" ; "" ; "" ; id )`
 
 ### Dates
-- `;fmdate` → `Date ( month ; day ; year )`
-- `;fmgcdc` → `Get ( CurrentDate )`
+- `;fmdatefn` → `Date ( month ; day ; year )`
+- `;fmgetcurrentdate` → `Get ( CurrentDate )`
 
 ### Lists
-- `;fmgetv` → `GetValue ( listOfValues ; valueNumber )`
-- `;fmvc` → `ValueCount ( listOfValues )`
+- `;fmgetvalue` → `GetValue ( listOfValues ; valueNumber )`
+- `;fmvaluecount` → `ValueCount ( listOfValues )`
 
 ## Editing Snippets
 
