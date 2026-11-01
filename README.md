@@ -20,10 +20,10 @@ For more detailed instructions, see [INSTALL.md](docs/INSTALL.md).
 
 Here are a few examples of what you can type to trigger the snippets:
 
-- `;fmlet` → Inserts a `Let ( [] ; )` statement.
-- `;fmcase` → Inserts a `Case ( test1 ; result1 {; test2 ; result2 ; ... ; defaultResult} )` function.
-- `;fmjsonset` → Inserts `JSONSetElement ( json ; keyOrIndexOrPath ; value ; type )`.
-- `;fmsql` → Inserts `ExecuteSQL ( sqlQuery ; fieldSeparator ; rowSeparator {; arguments...} )`.
+- `;fmlet` → Inserts a multi-line `Let ( [ var = value ] ; result )` statement.
+- `;fmcase` → Inserts a multi-line `Case ( test1 ; result1 ; test2 ; result2 ; defaultResult )` block.
+- `;fmif` → Inserts `If ( test ; resultIfTrue ; resultIfFalse )`.
+- `;fmsql` → Inserts `ExecuteSQL ( "SELECT field FROM table WHERE id = ?" ; "" ; "" ; id )`.
 
 For a full list and usage guide, see [USAGE.md](docs/USAGE.md).
 
